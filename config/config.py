@@ -20,17 +20,17 @@ from KillerXMusic.nocmds.devep import *
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "20360638"))
+API_HASH = getenv("5354d0039297b5a57d101748c861e4ae")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("7713475291:AAGsChGBq2G5dg2nUd8ZZp22wvdW7AFD3hQ")
 
 # BOTFATHER WITHOUT @
-BOT_USERNAME = getenv("BOT_USERNAME")
+BOT_USERNAME = getenv("@I_am_hinata_bot")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://vg1220477:<db_nFZZfRhoNcpT0wu9>@chattingbot.ccascqc.mongodb.net/?retryWrites=true&w=majority&appName=chattingbot", None)
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -43,7 +43,7 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002538461975"))
 
 # A name for your Music bot.
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
